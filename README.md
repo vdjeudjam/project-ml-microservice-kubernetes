@@ -1,6 +1,6 @@
-[![vdjeudjam](https://circleci.com/<gh>/<vdjeudjam>/project-ml-microservice-kubernetes.svg?style=svg)](https://github.com/vdjeudjam/project-ml-microservice-kubernetes)
-
-## Project Overview
+[![CircleCi](https://circleci.com/gh/vdjeudjam/project-ml-microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/vdjeudjam/project-ml-microservice-kubernetes)
+ 
+ ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
