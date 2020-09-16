@@ -1,0 +1,7 @@
+(.devops) verane (master *) project-ml-microservice-kubernetes $ sudo ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "bostonhouseprediction" already exists
+NAME                    READY   STATUS    RESTARTS   AGE
+bostonhouseprediction   1/1     Running   1          101m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
