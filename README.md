@@ -17,11 +17,20 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
-
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
-
----
+### Description of Project Files
+* /.circleci/config.yml - circleCi configuration file to set up Continous Integration
+* /model_data - The model data for Boston Housing Price Prediction
+* /output_txt_files - Predictions output logs for Docker and Kubernetes  
+* Dockerfile - Docker image build configuration 
+* Makefile - Environment setup, installm, lint and test Commands configuration 
+* app.py - Python Flask App for Boston Housing prices predictions about through API calls
+* make_prediction.sh - Make predictions based on input values for Boston Housing Price Prediction
+* requirements.txt - List of required packages 
+* run_docker.sh - Docker build configuration file 
+* run_kubernetes.sh : Kubernetes Cluster deployment file based on docker image 
+* upload_docker.sh : Docker image push configuration file
+ 
+ ---
 
 ## Setup the Environment
 
